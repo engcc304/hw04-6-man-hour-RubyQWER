@@ -42,7 +42,7 @@ void commaprint(int number) {
         float salary ;
         //กรอกรหัสประจำตัวพนักงาน
         printf( "Input the Employees ID(Max. 10 chars): \n" ) ;
-        scanf ( "%s", &employ_id ) ;
+        scanf ( "%s", employ_id ) ;
         //กรอกจำนวนชั่วโมงที่ทำงาน
         printf( "Input the working hrs: \n" ) ;
         scanf ( "%d", &hr ) ;
