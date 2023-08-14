@@ -36,7 +36,7 @@ void commaprint(int number) {
     printf(",%03d", number % 1000);
 }
     int main () {
-        char employ_id  [10];
+        char employ_id [ 10 ] ;
         int  hr ;
         int  amhr ;
         float salary ;
