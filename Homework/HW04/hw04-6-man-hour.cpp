@@ -27,6 +27,7 @@
         Salary = U$ 374,000.00
 */
 #include <stdio.h>
+
 void commaprint(int number) {
     if (number < 1000 ) {
         printf("%d", number) ;
@@ -37,18 +38,18 @@ void commaprint(int number) {
 }
     int main () {
         char employ_id [10] ;
-        int  hr ;
-        int  amhr ;
+        float  hr ;
+        float  amhr ;
         float salary ;
         //กรอกรหัสประจำตัวพนักงาน
         printf( "Input the Employees ID(Max. 10 chars): \n" ) ;
         scanf ( "%s", employ_id ) ;
         //กรอกจำนวนชั่วโมงที่ทำงาน
         printf( "Input the working hrs: \n" ) ;
-        scanf ( "%d", &hr ) ;
+        scanf ( "%f", &hr ) ;
         //กรอกรายได้ต่อชั่วโมง 
         printf( "Salary amount/hr: \n" ) ;
-        scanf ( "%d", &amhr ) ;
+        scanf ( "%f", &amhr ) ;
         //คำนวนsalary
         salary = hr*amhr ;
         printf( "Expected Output:" ) ;
