@@ -40,8 +40,8 @@ void commaprint(int number) {
         char id [10] ;
         float  hr ;
         float  amhr ;
-        float  salary ;
         //กรอกรหัสประจำตัวพนักงาน
+        printf("Test case: \n");
         printf( "Input the Employees ID(Max. 10 chars): \n" ) ;
         scanf ( "%s", id ) ;
         //กรอกจำนวนชั่วโมงที่ทำงาน
@@ -51,7 +51,9 @@ void commaprint(int number) {
         printf( "Salary amount/hr: \n" ) ;
         scanf ( "%f", &amhr ) ;
         //คำนวนsalary
+        float  salary ;
         salary = hr*amhr ;
+        printf("Output: \n");
         printf( "Expected Output:" ) ;
         printf( "\nEmployees ID = %s",id ) ;
         printf( "\nSalary = U$  " ) ;
